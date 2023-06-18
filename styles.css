@@ -116,3 +116,11 @@ img {
     font-size: 24px;
     font-weight:bold;
 }
+
+.footer {
+    background-color:#1F2937 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:40px
+}
