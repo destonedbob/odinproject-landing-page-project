@@ -87,11 +87,32 @@ img {
     padding-top: 200px;
 }
 
-
 .quote-sayer {
     font-weight: 900;
     color: #1F2937;
     align-self: flex-end;
     font-size:24px;
     padding-bottom: 150px;
+}
+
+.cta-box {
+    background-color:#3882F6;
+    padding: 24px 36px;
+    margin: 100px 10vw;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    padding: 50px 10vw;
+
+}
+
+.cta-button {
+    border: 1px solid #E5E7EB;
+}
+
+.cta-header {
+    font-size: 24px;
+    font-weight:bold;
 }
