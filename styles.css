@@ -15,6 +15,14 @@ h1 {
     margin: 0;
 }
 
+h2 {
+    font-size:36px;
+    font-weight: extra-bold;
+    color: #1f2937;
+    margin: 0;
+    margin-top: 30px;
+}
+
 button {
     background-color:#3882F6;
     border-radius: 5px;
@@ -71,6 +79,35 @@ img {
     flex-direction: column;
     gap:10px;
     max-width: 37.5vw;
+}
+
+.mid-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap:40px;
+}
+
+.image-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 10vw;
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+.card > img {
+    border: 3px solid #3882F6;
+    border-radius: 15px;
+    height: 10vw;
+    width: 10vw;
 }
 
 .quote-content {
