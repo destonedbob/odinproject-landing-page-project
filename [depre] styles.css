@@ -1,6 +1,6 @@
 * {
     font-family: roboto, sans-serif;
-    color: black;
+    color: #E5E7EB;
     font-size: 18px;
 }
 
@@ -11,7 +11,7 @@ body {
 h1 {
     font-size:48px;
     font-weight: extra-bold;
-    color: black;
+    color: #F9FAF8;
     margin: 0;
 }
 
@@ -24,11 +24,11 @@ h2 {
 }
 
 button {
-    background-color:#ec87b1;
+    background-color:#3882F6;
     border-radius: 5px;
     font-weight: bold;
     padding: 8px 32px;
-    color: #161616;
+    color: #E5E7EB;
 
 }
 
@@ -48,7 +48,7 @@ img {
 }
 
 .top-section {
-    background: #ecd9eb;
+    background: #1f2937;
     display:flex;
     flex-direction: column;
     padding: 0 10vw;
@@ -64,7 +64,7 @@ img {
 
 .header-logo {
     font-size: 24px;
-    color: black;
+    color: #F9FAF8;
     font-weight: 800;
 }
 
@@ -86,7 +86,6 @@ img {
     align-items: center;
     flex-direction: column;
     gap:40px;
-    background-color: #fcfcfc;
 }
 
 .image-cards {
@@ -105,15 +104,14 @@ img {
 }
 
 .card > img {
-    border: 4px solid #ec87b1;
+    border: 3px solid #3882F6;
     border-radius: 15px;
     height: 10vw;
     width: 10vw;
 }
 
 .quote-content {
-    background-color: #f4f5f7;
-    background-color: #C6B6BA;
+    background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
     padding: 0 20vw;
@@ -134,15 +132,10 @@ img {
     padding-bottom: 150px;
 }
 
-.cta-section {
-    background-color: #fcfcfc;
-    padding: 100px;
-}
-
 .cta-box {
-    background-color:#ec87b1;
+    background-color:#3882F6;
     padding: 24px 36px;
-    margin: 0 10vw;
+    margin: 100px 10vw;
     border-radius: 10px;
     display: flex;
     justify-content: space-between;
@@ -153,7 +146,7 @@ img {
 }
 
 .cta-button {
-    border: 1px solid black;
+    border: 1px solid #E5E7EB;
 }
 
 .cta-header {
@@ -162,7 +155,7 @@ img {
 }
 
 .footer {
-    background-color:#ec87b1 ;
+    background-color:#1F2937 ;
     display: flex;
     justify-content: center;
     align-items: center;
