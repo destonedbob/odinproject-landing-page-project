@@ -1,0 +1,170 @@
+* {
+    font-family: roboto, sans-serif;
+    color: black;
+    font-size: 18px;
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    font-size:48px;
+    font-weight: extra-bold;
+    color: black;
+    margin: 0;
+}
+
+h2 {
+    font-size:36px;
+    font-weight: extra-bold;
+    color: #1f2937;
+    margin: 0;
+    margin-top: 30px;
+}
+
+button {
+    background-color:#ec87b1;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 8px 32px;
+    color: #161616;
+
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+    gap: 25px;
+}
+
+img {
+    object-fit: cover;
+    object-position: -20% -20%;
+    max-width: 37.5vw;
+    max-height: 400px;
+    overflow:hidden;
+}
+
+.top-section {
+    background: #ecd9eb;
+    display:flex;
+    flex-direction: column;
+    padding: 0 10vw;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: black;
+    font-weight: 800;
+}
+
+.top-content {
+    display: flex;
+    margin: 150px auto;
+    gap: 50px;
+}
+
+.top-content-left {
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    max-width: 37.5vw;
+}
+
+.mid-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap:40px;
+    background-color: #fcfcfc;
+}
+
+.image-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 10vw;
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+.card > img {
+    border: 4px solid #ec87b1;
+    border-radius: 15px;
+    height: 10vw;
+    width: 10vw;
+}
+
+.quote-content {
+    background-color: #f4f5f7;
+    background-color: #C6B6BA;
+    display: flex;
+    flex-direction: column;
+    padding: 0 20vw;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    padding-top: 200px;
+}
+
+.quote-sayer {
+    font-weight: 900;
+    color: #1F2937;
+    align-self: flex-end;
+    font-size:24px;
+    padding-bottom: 150px;
+}
+
+.cta-section {
+    background-color: #fcfcfc;
+    padding: 100px;
+}
+
+.cta-box {
+    background-color:#ec87b1;
+    padding: 24px 36px;
+    margin: 0 10vw;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    padding: 50px 10vw;
+
+}
+
+.cta-button {
+    border: 1px solid black;
+}
+
+.cta-header {
+    font-size: 24px;
+    font-weight:bold;
+}
+
+.footer {
+    background-color:#ec87b1 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:40px
+}
